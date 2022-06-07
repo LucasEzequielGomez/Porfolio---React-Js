@@ -1,0 +1,26 @@
+{
+  "name": "porfolio---react",
+  "version": "1.0.0",
+  "description": "Creacion del Portfolio de trabajos y conocimientos.\r  Algunos trabajos que hice de manera independiente, desarrollando mis propios Templates junto con los procesos y herramientas necesarias para el desarrollo de mis labores.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.sass css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasEzequielGomez/Porfolio---React-Js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasEzequielGomez/Porfolio---React-Js/issues"
+  },
+  "homepage": "https://github.com/LucasEzequielGomez/Porfolio---React-Js#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {}
+}
